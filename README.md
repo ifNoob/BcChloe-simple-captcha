@@ -1,8 +1,8 @@
 # WordPress plugin
 # BcChloe-simple-captcha
-# Really Simple CAPTCHA Clone 拡張プラグイン
-# Plugin origin https://ja.wordpress.org/plugins/really-simple-captcha/
-# Plugin URI: https://bcchloe.jp
+* Really Simple CAPTCHA Clone 拡張プラグイン
+* Plugin origin https://ja.wordpress.org/plugins/really-simple-captcha/
+* Plugin URI: https://bcchloe.jp
 
 ## Requirements
 * WordPress 4.9.6
@@ -25,8 +25,8 @@
 * 設定ファイルは、captcha_config.php 内にて
 
 ## Release
-* Ver 1.3 設定部を別ファイル captcha_config.php にした
-* Ver 1.2 内部code修正及び Bug fix
+* Ver 1.3 スクリーンリーダー対応
+* Ver 1.2 設定部を別ファイル captcha_config.php に Bug fix
 * Ver 1.1 背景透明化 
 * Ver 1.0 ひらがな対応
 
