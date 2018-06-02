@@ -6,7 +6,7 @@ Description: <strong>BcChloe Clone</strong> Really Simple CAPTCHA is a CAPTCHA m
 Author: Clone by BcChloe origin / (Takayuki Miyoshi)
 Author URI: https://bcchloe.jp
 Text Domain: really-simple-captcha
-Version: 2.0 + 1.5
+Version: 2.0 + 1.6
 */
 
 define( 'REALLYSIMPLECAPTCHA_VERSION', '2.0' );
