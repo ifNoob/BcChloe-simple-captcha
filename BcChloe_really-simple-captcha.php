@@ -14,10 +14,10 @@ define( 'REALLYSIMPLECAPTCHA_VERSION', '2.0' );
 # contact form 7 really-simple-captcha Mode ON
 define( 'WPCF7_USE_REALLY_SIMPLE_CAPTCHA', true );
 
-	if (is_readable( 'captcha_config.php' )) {
-		require ( dirname ( __FILE__ ) . '/captcha_config.php');
-	} else {
-		require ( dirname ( __FILE__ ) . '/captcha_config_sample.php');
+# 設定ファイルが存在しない場合 (whiteout回避)
+	$config_file = dirname( __FILE__ ) . '/captcha_config.php';
+	if ( !file_exists($config_file) ) {
+		require_once ( dirname ( __FILE__ ) . '/captcha_config_sample.php' );
 	}
 
 # wpcf7_really_simple_captcha override load
