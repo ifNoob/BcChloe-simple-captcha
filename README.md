@@ -8,7 +8,7 @@
 * WordPress 4.9.6
 * PHP 7.0.x 〜 7.2.x
 * 2018/6
-* Ver 1.3
+* Ver 1.5
 
 ## プラグイン概要
 * キャプチャ文字ひらがな対応
@@ -25,8 +25,10 @@
 * 設定ファイルは、captcha_config.php 内にて
 
 ## Release
-* Ver 1.3 スクリーンリーダー対応
-* Ver 1.2 設定部を別ファイル captcha_config.php に Bug fix
+* Ver 1.5 captcha_config.php ファイルがない場合、sampleをreadさせる
+* Ver 1.4 スクリーンリーダー対応
+* Ver 1.3 設定部を別ファイル captcha_config.php に Bug fix
+* Ver 1.2 英数字文字切り替え対応
 * Ver 1.1 背景透明化 
 * Ver 1.0 ひらがな対応
 
