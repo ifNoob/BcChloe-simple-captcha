@@ -6,7 +6,7 @@ Description: <strong>BcChloe Clone</strong> Really Simple CAPTCHA is a CAPTCHA m
 Author: Clone by BcChloe origin / (Takayuki Miyoshi)
 Author URI: https://bcchloe.jp
 Text Domain: really-simple-captcha
-Version: 2.0 + 1.3
+Version: 2.0 + 1.5
 */
 
 define( 'REALLYSIMPLECAPTCHA_VERSION', '2.0' );
@@ -14,7 +14,11 @@ define( 'REALLYSIMPLECAPTCHA_VERSION', '2.0' );
 # contact form 7 really-simple-captcha Mode ON
 define( 'WPCF7_USE_REALLY_SIMPLE_CAPTCHA', true );
 
-require ( dirname ( __FILE__ ) . '/captcha_config.php');
+	if (is_readable( 'captcha_config.php' )) {
+		require ( dirname ( __FILE__ ) . '/captcha_config.php');
+	} else {
+		require ( dirname ( __FILE__ ) . '/captcha_config_sample.php');
+	}
 
 # wpcf7_really_simple_captcha override load
 require ( dirname ( __FILE__ ) . '/wpcf7_add_form_tag_captcha_override.php');
