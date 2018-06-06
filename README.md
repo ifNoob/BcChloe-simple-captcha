@@ -2,7 +2,7 @@
 * Contributors: BcChloe
 * Donate link: https://github.com/ifNoob/BcChloe-simple-captcha
 * Author URI: https://bcchloe.jp
-* Tags: CSS, Custom CSS, Page, Post
+* Tags: Captcha, Contact Form 7
 * Requires at least: 4.x.x
 * Tested up to: 4.9.6
 * Stable tag: 1.5
