@@ -3,7 +3,7 @@
 Plugin Name: BcChloe Really Simple CAPTCHA Clone
 Plugin URI: https://github.com/ifNoob/BcChloe-simple-captcha
 Description: <strong>BcChloe Clone</strong> Really Simple CAPTCHA is a CAPTCHA module intended to be called from other plugins. It is originally created for my Contact Form 7 plugin. origin(https://ideasilo.wordpress.com/)
-Author: Clone by BcChloe
+Author: Folk by BcChloe
 Author URI: https://bcchloe.jp
 Text Domain: really-simple-captcha
 Version: 2.0 + 1.5
