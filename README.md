@@ -5,7 +5,7 @@
 * Tags: Captcha, Contact Form 7
 * Requires at least: WP 4.x.x | PHP 7.2.x
 * Tested up to: 4.9.6
-* Stable tag: 1.5
+* Stable tag: 1.6
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,6 +39,9 @@
 
 # == Changelog ==
 * Upgrade notice
+* = 1.6 =
+* Contact Form 7 本体がアクティブで出ない場合ホワイトアウト回避
+
 * = 1.5 =
 * captcha_config.php ファイルがない場合、sampleをreadさせる
 *  Bug fixed
