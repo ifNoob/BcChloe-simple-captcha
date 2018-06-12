@@ -3,7 +3,7 @@
 * Donate link: https://github.com/ifNoob/BcChloe-simple-captcha
 * Author URI: https://bcchloe.jp
 * Tags: Captcha, Contact Form 7
-* Requires at least: 4.x.x
+* Requires at least: WP 4.x.x | PHP 7.2.x
 * Tested up to: 4.9.6
 * Stable tag: 1.5
 * License: GPLv2 or later
@@ -13,13 +13,6 @@
 * Really Simple CAPTCHA Clone 拡張プラグイン
 * Contact Form 7 同作者 Really Simple CAPTCHA plugin を
 * ひらがなモード対応と、キャプチャ背景部を透明化しました 
-
-# == Privacy Notices ==
-* With the default configuration, this plugin, in itself, does not:
-* track users by stealth;
-* write any user personal data to the database;
-* send any data to external servers;
-* use cookies.
 
 # == Docs & Support ==
 * https://bcchloe.jp
@@ -70,15 +63,13 @@
 *  ひらがな対応
 * It is Initial release
 
-## Release
+# == Privacy Notices ==
+* With the default configuration, this plugin, in itself, does not:
+* track users by stealth;
+* write any user personal data to the database;
+* send any data to external servers;
+* use cookies.
 
-* Ver 1.3 設定部を別ファイル captcha_config.php に Bug fix
-* Ver 1.2 英数字文字切り替え対応
-* Ver 1.1 背景透明化 
-* Ver 1.0 ひらがな対応
-
-
-
-
-# 注意事項 このプラグイン有効後における個人情報取り扱いには配布者に対し何ら責任は問われません。
+# 取扱事項: このプラグインにおける何らかの損害について一切の責任を負わないものとし、また法的責任もありません。
+# 注意事項: このプラグイン有効後における個人情報取り扱いには配布者に対し何ら責任は問われません。
 # 免責事項: このプラグインの作成者は法的な背景を持っていません。
